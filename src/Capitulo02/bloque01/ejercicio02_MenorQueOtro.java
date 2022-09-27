@@ -1,10 +1,11 @@
-package Caputilo02.bloque01;
+package Capitulo02.bloque01;
 
 import java.util.Scanner;
 
-public class ejercicio01_MayorQueOtro {
+public class ejercicio02_MenorQueOtro {
 
-	public static void main (String args[]) {
+	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner (System.in);
 		 
 		System.out.println("Introduzca un numero : ");
@@ -12,12 +13,11 @@ public class ejercicio01_MayorQueOtro {
 		System.out.println("Introduzca un numero : ");
 		int num2 = sc.nextInt();
 		
-		if (num1>num2) {
-			System.out.println("El "+num1+" es mayor");
+		if (num1<num2) {
+			System.out.println("El "+num1+" es menor");
 		}else {
-			System.out.println("El "+num2+" es mayor");
+			System.out.println("El "+num2+" es menor");
 		}
-			
-		
 	}
+
 }
