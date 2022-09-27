@@ -9,7 +9,7 @@ public class ejercicio07_ParOImparConAnd {
 		int num1 = sc.nextInt();
 		int num2 = 1;
 		
-		if ((num1 & num2)) {
+		if ((num1&num2)==0) {
 			System.out.println("El numero es par ");
 		}else {
 			System.out.println("El numero es impar ");
