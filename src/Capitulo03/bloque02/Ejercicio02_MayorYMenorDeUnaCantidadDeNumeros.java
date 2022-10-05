@@ -8,15 +8,25 @@ public class Ejercicio02_MayorYMenorDeUnaCantidadDeNumeros {
 		Scanner sc = new Scanner (System.in);
 		System.out.println("¿Cuantos Numeros quiere ?");
 		int cont = sc.nextInt();
-		int mayor = 0;
-		int menor = 0;
-		for (int i=0;i<cont;++i) {
+		int num=0;
+		int mayor ;
+		int menor ;
+
+		
+		System.out.println("Introzuca un numero");
+		num = sc.nextInt();
+		mayor = num;
+		menor = num;
+		
+		for (int i=0;i<(cont-1);++i) {
 			System.out.println("Introzuca un numero");
-			int num = sc.nextInt();
+			num = sc.nextInt();
+
 			if(num>mayor) {
 				mayor = num ; 
-			}else {
-				menor = num ; 
+			}
+			if(num<menor){
+				menor = num;
 			}
 		}
 		System.out.println("De los numeros introducidos el mayor es : "+mayor+"// Y el menor es : "+menor);
