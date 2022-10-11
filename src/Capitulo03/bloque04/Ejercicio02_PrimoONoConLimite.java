@@ -17,7 +17,7 @@ public class Ejercicio02_PrimoONoConLimite {
 			if(num % num == 0 && num % 1 == 0 && num % 2 != 0) {
 				System.out.println("El numero "+num+" es primo ");
 			}else {
-				System.out.println("El numero es compuesto ");
+				System.out.println("El numero "+num+" es compuesto ");
 			}
 			
 			i++;
