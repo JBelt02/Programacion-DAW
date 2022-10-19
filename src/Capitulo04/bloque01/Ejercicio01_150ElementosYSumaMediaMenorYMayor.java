@@ -15,10 +15,7 @@ public class Ejercicio01_150ElementosYSumaMediaMenorYMayor {
 		}
 		System.out.println("La lista de numeros del array es :");
 		
-		while(i < 150) {
-			System.out.println(" " + Numeros[i]);
-			i++;
-		}
+		
 		for( o = 0; o < Numeros.length; o++){
 	        numero = Numeros[o];
 	        suma += numero;
