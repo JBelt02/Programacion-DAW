@@ -24,7 +24,7 @@ public class Ejercicio04_DesplazamientoDeSecuencia {
 			System.out.print("  " + Numeros[i]);
 			i++;
 		}
-		System.out.println(Numeros[0]);
+		
 	}
 
 }
