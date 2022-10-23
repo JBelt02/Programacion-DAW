@@ -20,27 +20,27 @@ public class Ejercicio05_DesplazamientoDeSecuenciaPreguntadaAUsuario {
 			Numeros[x] = (int) (Math.random()*100);
 			System.out.print("  "+Numeros[x]);
 		}
-/*		for(int x = 0 ; x < 5 ; ++x) {
-			if (x < 3 & (x+desp)<Numeros.length) {
+		for(int x = 0 ; x < 5 ; ++x) {
+			if (x < 3 && (x+desp)<Numeros.length) {
 				Numeros2[x + desp] = Numeros[x];
 			}
-			if(x == 0 & (x + desp) >= Numeros2.length) {
+			if(x == 0 && (x + desp) >= Numeros2.length) {
 				Numeros2[(0 + desp) - 5]= Numeros[0];
 				
 			}
-			if(x == 1 & (x + desp) >= Numeros2.length) {
+			if(x == 1 && (x + desp) >= Numeros2.length) {
 				Numeros2[(0 + desp) - 4]= Numeros[1];
 				
 			}
-			if(x == 2 & (x + desp) >= Numeros2.length) {
+			if(x == 2 && (x + desp) >= Numeros2.length) {
 				Numeros2[(0 + desp) - 3]= Numeros[2];
 				
 			}
-			if(x == 3 & (x + desp) >= Numeros2.length) {
+			if(x == 3 && (x + desp) >= Numeros2.length) {
 				Numeros2[(0 + desp) - 2] = Numeros[3];
 
 			}
-			if(x == 4 & (x + desp) >= Numeros2.length) {
+			if(x == 4 && (x + desp) >= Numeros2.length) {
 				Numeros2[(0 + desp) - 1]= Numeros[4];
 				
 			}
@@ -51,17 +51,7 @@ public class Ejercicio05_DesplazamientoDeSecuenciaPreguntadaAUsuario {
 			System.out.print("  " + Numeros2[i]);
 			i++;
 		}
-*/
-		
-		for(int j=0+desp; j<Numeros.length;j++)
-		{
-			Numeros2[j]= Numeros[j-desp];
-		}
-		
-		for(int j=0;j<Numeros2.length;j++)
-		{
-			System.out.print(Numeros2[j]);
-		}
+
 	}
 
 }
