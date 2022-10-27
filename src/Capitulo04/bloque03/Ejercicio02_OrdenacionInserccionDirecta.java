@@ -7,7 +7,7 @@ public class Ejercicio02_OrdenacionInserccionDirecta {
 		int j = 0 ;
 		int o = 0 ; 
 		int aux = 0 ;
-		int[] numeros = new int[150];
+		int[] numeros = new int[150];  
 		
 		System.out.println("Lista sin ordenar ");
 		for (int x = 0; x < numeros.length; x++) {

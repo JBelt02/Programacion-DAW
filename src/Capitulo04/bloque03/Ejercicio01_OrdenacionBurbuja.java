@@ -6,7 +6,7 @@ public class Ejercicio01_OrdenacionBurbuja {
 		int i = 0 ;
 		int j = 0 ;
 		int aux = 0 ;
-		boolean band = true;
+		boolean band = true;  
 		int[] numeros = new int[150];
 		
 		System.out.println("Lista sin ordenar ");
