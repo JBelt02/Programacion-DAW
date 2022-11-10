@@ -79,6 +79,9 @@ public class arrays {
 		float med = (float)aprob / (float)j ; 
 		return med;
 	}
+
+
+	
 }
 
 
