@@ -8,7 +8,6 @@ public class Ejercicio04_MatrizYMetodos {
 		 *  
 		 */
 		
-		
 		int matriz[][] = new int[5][5];
 		matrices.rellenaMatriz(matriz);
 		matrices.mostrarmatriz(matriz);
