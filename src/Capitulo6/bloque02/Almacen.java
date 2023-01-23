@@ -40,8 +40,8 @@ public class Almacen {
 
 			case 3:
 				System.out.println("Va a elminar un artículo del almacen.\n");
-				eliminarArticulo()
-;				break;
+				eliminarArticulo();
+				break;
 				
 			case 4:
 				System.out.println("Va a modificar un árticulo del almacen.\n");
