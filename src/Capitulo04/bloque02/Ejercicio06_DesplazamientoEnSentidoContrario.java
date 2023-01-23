@@ -13,5 +13,6 @@ public class Ejercicio06_DesplazamientoEnSentidoContrario {
 		 * Ya mañana en clase pregunto alguno de los 2 por curiosidad para saber como se hacia :) 
 		 * */
 	}
-
 }
+
+
